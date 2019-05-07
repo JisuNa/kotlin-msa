@@ -11,6 +11,6 @@ class JsonExampleController {
 
 //    @GetMapping(value = "/json")
 //    fun getJson() = SimpleObject("hi", "Kotlin")
-    @GetMapping(value = "/json")
-    fun getJson() = ComplexObject(object1 = SimpleObject("more", "complex"))
+//    @GetMapping(value = "/json")
+//    fun getJson() = ComplexObject(object1 = SimpleObject("more", "complex"))
 }
